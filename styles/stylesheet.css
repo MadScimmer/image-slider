@@ -1,0 +1,51 @@
+body {
+  background-color: #9c5965;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+}
+
+#wrapper {
+  width: 640px;
+  margin: 30px auto;
+}
+
+#slider {
+  width: 640px;
+  height: 480px;
+  overflow: hidden;
+  padding: 0;
+}
+
+#slider > li {
+  display: inline-block;
+}
+
+#slider > li > img {
+  width: 640px;
+  height: 480px;
+}
+
+#wrapper > a {
+  font-family: Arial;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #365287;
+  color: #ccd2d1;
+}
+
+a#prev {
+  float: left;
+}
+
+a#next {
+  float: right;
+}

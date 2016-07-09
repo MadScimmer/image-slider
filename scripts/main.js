@@ -63,7 +63,11 @@ $(function() {
   $("#wrapper > a#next").click(function(event) {
     event.preventDefault();
     changeSlide();
-
-
   });
+
+  $("img").click(function(event) {
+    event.preventDefault();
+    changeSlide();
+  });
+
 });
